@@ -1,0 +1,170 @@
+body{
+  font-family: 'Crimson Text', serif;
+  background:#fff3e0;
+
+  }
+.chart rect {
+  fill: steelblue;
+}
+.rect{
+  width:10px;
+  height:100%;
+  background:steelblue;
+}
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+/*.line{
+  height:100%;
+  width:auto;
+}
+*/
+
+.wrapper{
+  background:blue1;
+  position:absolute;
+  top:0px;
+  left:0px;
+
+}
+#line-before{
+  left:-5150px;
+  background:bisque1;
+  top:1px;
+
+}#line-left{
+  left:300px;
+  background:bisque1;
+  top:0px;
+
+}
+#line-right{
+  left:5150px;
+  background:steelblue1;
+  top:-1px;
+
+
+}
+.img-svg {
+  background:green1;
+  position:absolute;
+  top:20px;
+  left:-30px;
+}
+.img-svg img {
+  width:5180px;
+}
+.complete{
+  display:none;
+}
+.triangle{
+  line-height:100%;
+  float:right;
+  cursor:pointer;
+  font-style:normal;
+  /*color:#fff3e0;*/
+}
+.up-triangle{
+  display:none;
+}
+.lexicon{
+  background:skyblue1;
+  /*display:none;*/
+  position:absolute;
+  top:0px;
+  left:0px;
+  background:red1;
+  width:5380px;
+  font-weight:400;
+}
+.lexicon-block{
+  /*background:#fff3e0;*/
+
+  vertical-align: top;
+  display:inline-block;
+
+  margin: 0px 15px;
+  background:green1;
+  width:270px;
+}
+.lexicon-title, .lexicon-annotation{
+  font-style:italic;
+}
+
+.lexicon-annotation{
+  /*z-index: -1;*/
+  display:none;
+  /*opacity:0.1;*/
+  position:absolute;
+/*font-family:serif;*/
+  font-style:italic;
+  color:#998888;
+  font-size:1.1em;
+  margin-top:0px;
+  background:#CCDDDD;
+  border-style:  solid single;
+  padding:10px;
+  opacity:0.9;
+}
+.lexicon-dash{
+  margin: 1px 0px 20px 0px;
+
+}
+.annotation-button{
+  position:absolute;
+}
+.ramp{
+  /*position:absolute;*/
+  margin-left:2800px;
+  /*z-index: 999;*/
+}
+#about-wrapper1{
+  position:absolute;
+  top:1200px;
+  left:20px;
+  width:330px;
+
+}
+.about{
+  font-family: "helvetica",sans-serif;
+  font-size:0.8em;
+  line-height: 150%;
+  display:inline-block;
+  width:300px;
+  margin:20px;
+  color:lightgrey;
+  vertical-align:top;
+  /*height:600px;*/
+}
+#about-wrapper{
+  vertical-align:top;
+  margin-top: 300px;
+}
+.about{
+  cursor:pointer;
+}
+.about:hover{
+  color: #99BBBB;
+  /*opacity:0;*/
+  /*display:none;*/
+}
+
+a:link {
+    text-decoration: none;
+    color:#cc9988;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#cc9988;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
